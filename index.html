@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Znar Adil Salih — Software Engineer</title>
+<meta name="description" content="Portfolio of Znar Adil Salih — Software Engineering student & freelance web developer based in Sulaymaniyah, Kurdistan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-brand">
+      <span class="nav-brand-mark">&gt;_</span>
+      <span class="nav-brand-text">znar</span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about"><span class="idx">01</span> about</a>
+      <a href="#skills"><span class="idx">02</span> skills</a>
+      <a href="#projects"><span class="idx">03</span> projects</a>
+      <a href="#experience"><span class="idx">04</span> experience</a>
+      <a href="#education"><span class="idx">05</span> education</a>
+      <a href="#contact"><span class="idx">06</span> contact</a>
+    </nav>
+    <a href="assets/Znar_Adil_Salih_CV.pdf" download class="nav-cv">
+      <span>CV</span>
+      <svg width="13" height="13" viewBox="0 0 13 13" fill="none"><path d="M6.5 1V9.5M6.5 9.5L3 6M6.5 9.5L10 6M1.5 11.5H11.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+          <span class="terminal-title">znar@gardun — zsh</span>
+        </div>
+        <div class="terminal-body" id="terminalBody">
+          <p class="line"><span class="prompt">znar@gardun</span><span class="path">~</span><span class="dollar">$</span> whoami</p>
+          <p class="output type-target" id="typeLine1"></p>
+          <p class="line line-delay-1"><span class="prompt">znar@gardun</span><span class="path">~</span><span class="dollar">$</span> cat status.txt</p>
+          <p class="output line-delay-1b">Software Engineering student @ QIU · building things that ship, not just things that compile.</p>
+          <p class="line line-delay-2"><span class="prompt">znar@gardun</span><span class="path">~</span><span class="dollar">$</span> <span class="cursor">▌</span></p>
+        </div>
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow">Sulaymaniyah, Kurdistan Region — Iraq</p>
+        <h1>Znar Adil Salih</h1>
+        <p class="hero-sub">Software Engineering student and freelance web developer. I build full-stack tools for coursework and real client sites for local businesses — currently running <a href="#contact" class="inline-link">Gardun Studio</a> on the side.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View projects</a>
+          <a href="assets/Znar_Adil_Salih_CV.pdf" download class="btn btn-ghost">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section" id="about">
+    <div class="section-head">
+      <span class="section-num">01</span>
+      <h2>About</h2>
+    </div>
+    <div class="about-grid">
+      <p class="about-text">
+        I'm a Software Engineering student at Qaiwan International University (QIU), currently entering my third year, and splitting my time between coursework and freelance web work under my own small studio, Gardun. I work across the stack — comfortable moving between C++, Java, and JavaScript/PHP depending on what a project actually needs, rather than sticking to one language out of habit.
+        <br><br>
+        What I care about most is finishing things properly: shipping a site that's actually live, running a real usability test instead of skipping to the write-up, and understanding a concept fully before I move past it. Outside of code, I train in martial arts and spend time hiking and camping around Kurdistan.
+      </p>
+      <div class="about-meta">
+        <div class="meta-row"><span>Based in</span><span>Sulaymaniyah, IQ</span></div>
+        <div class="meta-row"><span>Studying</span><span>Software Engineering, QIU</span></div>
+        <div class="meta-row"><span>Focus</span><span>Full-stack web, OOP</span></div>
+        <div class="meta-row"><span>Also running</span><span>Gardun Studio</span></div>
+        <div class="meta-row"><span>Languages</span><span>Kurdish (native), English (C1)</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section" id="skills">
+    <div class="section-head">
+      <span class="section-num">02</span>
+      <h2>Skills</h2>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-block">
+        <p class="skill-label">// languages</p>
+        <div class="tag-row">
+          <span class="tag">C++</span><span class="tag">Java</span><span class="tag">JavaScript</span><span class="tag">PHP</span><span class="tag">SQL</span><span class="tag">HTML/CSS</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <p class="skill-label">// tools &amp; platforms</p>
+        <div class="tag-row">
+          <span class="tag">Git / GitHub</span><span class="tag">GitHub Pages</span><span class="tag">XAMPP</span><span class="tag">Flask</span><span class="tag">SQLite</span><span class="tag">VS Code</span>
+        </div>
+      </div>
+      <div class="skill-block">
+        <p class="skill-label">// core areas</p>
+        <div class="tag-row">
+          <span class="tag">Object-Oriented Programming</span><span class="tag">Full-Stack Web Dev</span><span class="tag">HCI / UX Prototyping</span><span class="tag">Responsive Design</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section" id="projects">
+    <div class="section-head">
+      <span class="section-num">03</span>
+      <h2>Projects</h2>
+    </div>
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <h3>FoodFlow</h3>
+        <p class="project-desc">A full-stack multi-restaurant ordering platform — browse menus across different restaurants and place orders from one place. Built with a teammate; received full marks.</p>
+      </article>
+
+      <article class="project-card">
+        <h3>LearnFlow</h3>
+        <p class="project-desc">A redesign concept for Moodle, aligned with SDG 4. Led the team through storyboards, wireframes, a fully clickable prototype, and real usability testing sessions.</p>
+      </article>
+
+      <article class="project-card">
+        <h3>NAY Cosmetic</h3>
+        <p class="project-desc">A dark-themed, mobile-first landing page in Kurdish Sorani for a local cosmetics business — live business hours, WhatsApp ordering, and an embedded map location.</p>
+      </article>
+
+      <article class="project-card">
+        <h3>Event Management System</h3>
+        <p class="project-desc">A Java application for organizing and managing events, built to apply core object-oriented principles — inheritance, interfaces, and exception handling — from the ground up.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section" id="experience">
+    <div class="section-head">
+      <span class="section-num">04</span>
+      <h2>Experience</h2>
+    </div>
+    <div class="exp-row">
+      <div class="exp-when">2025 — Present</div>
+      <div class="exp-body">
+        <h3>Founder &amp; Web Developer — Gardun Studio</h3>
+        <p>Freelance web design studio building end-to-end sites for local businesses in Sulaymaniyah — from design through deployment. Handle frontend and backend implementation, client communication, and ongoing site maintenance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="section" id="education">
+    <div class="section-head">
+      <span class="section-num">05</span>
+      <h2>Education</h2>
+    </div>
+    <div class="exp-row">
+      <div class="exp-when">2024 — 2028 <span class="expected">(expected)</span></div>
+      <div class="exp-body">
+        <h3>B.Sc. Software Engineering — Qaiwan International University</h3>
+        <p>Sulaymaniyah, Kurdistan Region, Iraq. Currently entering third year, with coursework spanning object-oriented programming, systems analysis &amp; design, and web development fundamentals.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT / FOOTER ============ -->
+  <footer class="contact" id="contact">
+    <div class="contact-inner">
+      <p class="eyebrow">06 — Get in touch</p>
+      <h2>Let's build something.</h2>
+      <p class="contact-sub">Open to internships, junior roles, and freelance web projects.</p>
+      <div class="contact-links">
+        <a href="mailto:znar.a.salih@gmail.com" class="contact-link">
+          <span class="contact-link-label">Email</span>
+          <span class="contact-link-value">znar.a.salih@gmail.com</span>
+        </a>
+        <a href="https://github.com/Znar206" class="contact-link" target="_blank" rel="noopener">
+          <span class="contact-link-label">GitHub</span>
+          <span class="contact-link-value">github.com/Znar206</span>
+        </a>
+        <a href="https://wa.me/9647721518484" class="contact-link" target="_blank" rel="noopener">
+          <span class="contact-link-label">WhatsApp</span>
+          <span class="contact-link-value">+964 772 151 8484</span>
+        </a>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Znar Adil Salih</span>
+        <a href="assets/Znar_Adil_Salih_CV.pdf" download>Download CV (PDF)</a>
+      </div>
+    </div>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
